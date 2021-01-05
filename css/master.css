@@ -1,0 +1,41 @@
+body {
+  background: red;
+}
+
+/*smartphones mobiles (portrait)*/
+@media (max-width: 480px) {
+
+}
+
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    background: green;
+  }
+}
+
+/*tablets, ipads (landscape)*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background: yellow;
+  }
+}
+
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    background: black;
+    color : #fff;
+  }
+}
+
+/*desktops - higher resolution*/
+@media (min-width: 1281px) {
+  body {
+    background: rebeccapurple;
+    color : #fff;
+  }
+  .example-five {
+    display: block;
+  }
+}
