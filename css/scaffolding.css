@@ -1,3 +1,8 @@
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: red;
 }
@@ -20,6 +25,7 @@ body {
 @media (min-width: 480px) {
   .example-one {
     display: none;
+    columns: 10em auto;
   }
 }
 
@@ -32,6 +38,7 @@ body {
   }
   .example-two {
     display: block;
+    columns: 4 auto;
     font-size: 0.75em;
   }
 }
@@ -43,6 +50,7 @@ body {
   }
   .example-three {
     display: block;
+    columns: 4 auto;
   }
 }
 
@@ -53,9 +61,11 @@ body {
   }
   .example-three {
     display: none;
+    columns: 4 auto;
   }
   .example-four {
     display: block;
+    columns: 4 auto;
   }
 }
 
@@ -69,5 +79,6 @@ body {
   }
   .example-five {
     display: block;
+    columns: 4 auto;
   }
 }
