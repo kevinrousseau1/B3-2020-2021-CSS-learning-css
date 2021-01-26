@@ -1,10 +1,11 @@
 
 * {
   box-sizing: border-box;
+  font-family: montserrat;
 }
 
 body {
-  background: red;
+  background: white;
 }
 
 .example-two,
@@ -16,11 +17,7 @@ body {
 
 
 /*smartphones mobiles (portrait)*/
-@media (max-width: 480px) {
-  .example-one {
-    transform: rotate(90deg);
-  }
-}
+
 
 @media (min-width: 480px) {
   .example-one {
@@ -33,8 +30,8 @@ body {
 /*low resolution tablets, mobiles (portrait)*/
 @media (min-width: 481px) and (max-width: 767px) {
   body {
-    background: green;
-    color: #fff;
+    background: white;
+    color: black;
   }
   .example-two {
     display: block;
@@ -46,7 +43,7 @@ body {
 /*tablets, ipads (landscape)*/
 @media (min-width: 768px) and (max-width: 1024px) {
   body {
-    background: yellow;
+    background: white;
   }
   .example-three {
     display: block;
@@ -57,7 +54,8 @@ body {
 /*laptops, desktops*/
 @media (min-width: 1025px) and (max-width: 1280px) {
   body {
-    background: black;
+    background: white;
+    color: black;
   }
   .example-three {
     display: none;
@@ -72,7 +70,8 @@ body {
 /*desktops - higher resolution*/
 @media (min-width: 1281px) {
   body {
-    background: rebeccapurple;
+    background: white;
+    color: black;
   }
   .example-four {
     display: none;
