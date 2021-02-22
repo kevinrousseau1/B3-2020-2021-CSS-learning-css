@@ -1,8 +1,14 @@
-.ressource-list{
+ul.ressource-list{
   list-style-type: none;
   display:flex;
+  box-sizing: content-box;
   flex-wrap: wrap;
-  width: 100vw;
+  padding: 0;
+  width: auto;
+  text-align: center;
+  justify-content: center;
+
+
 }
 
 .ressource-list > *{
@@ -10,6 +16,21 @@
   flex-basics: 320px;
   flex-grow: 1px;
   flex-shrink: 0;
-  background: yellow;
-  border: 1px solid red;
+
+}
+
+img{
+  height: 200px;
+  width: auto;
+}
+
+
+.ressource-list-item a{
+  color: #7986CB;
+  text-decoration: none;
+
+}
+
+.ressource-list-item a:hover{
+  color:#343b63;
 }
