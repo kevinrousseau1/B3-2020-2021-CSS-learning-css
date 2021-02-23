@@ -1,5 +1,9 @@
 
-
+header{
+  position: fixed;
+  top:0;
+  width: 100%;
+}
 .menu{
   width: 100%;
   height: 80px;
@@ -94,9 +98,7 @@ span.menu-toggle-icons:after{
 
 @media screen and (max-width: 1000px){
 
-  body{
-    background-color:#ececed;
-  }
+
 
 .menu-right{
   position: absolute;
