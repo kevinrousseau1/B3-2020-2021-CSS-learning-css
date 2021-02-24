@@ -1,0 +1,50 @@
+article{
+margin: 100px 10% 10% 10%;
+}
+
+footer{
+  bottom: 0;
+}
+
+
+.text {
+  display: block;
+  grid-column: 2;
+  margin: 0;
+
+
+}
+.enavant img{
+  display: block;
+  max-height: 300px;
+  width: auto;
+  border-radius: 10px;
+}
+
+article.enavant{
+  display: grid;
+  grid-template-columns: repeat(2);
+  grid-gap: 64px;
+}
+
+span.t-bold{
+  font-weight: 700;
+}
+
+
+p.mentions{
+  text-align: center;
+}
+
+@media screen and (max-width: 800px){
+.article.enavant{
+grid-template-columns: repeat(1, 1fr);
+grid-auto-rows: 2;
+}
+
+.text{
+  grid-column: 1;
+  grid-row: 2;
+}
+
+}

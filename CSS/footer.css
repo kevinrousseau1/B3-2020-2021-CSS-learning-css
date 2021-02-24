@@ -1,0 +1,38 @@
+footer{
+  width: 100%;
+  background: #273175;
+  bottom: 0;
+  color: #fff;
+}
+
+footer .f-1,.f-2{
+  margin: 0;
+  text-align: center;
+}
+
+
+footer p.f-1{
+  padding:32px 0 64px 0;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+footer p.f-2{
+  padding-bottom: 128px;
+}
+
+footer P.f-2 a{
+  color: #fff;
+}
+
+footer P.f-2 a:hover{
+  color: #7986CB;
+  font-weight: 600;
+
+}
+
+footer p.f-2 span.f-2_quote{
+  font-style: italic;
+  color: #7f8eeb;
+  font-size: 13px;
+}
